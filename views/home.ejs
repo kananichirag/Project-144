@@ -203,18 +203,18 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
         
         <!-- Modal body -->
         <div class="modal-body">
-          <form action="/action_page.php">
+          <form action="/info" method="post">
             <div class="form-group">
               <label for="text">Your State :</label>
-              <input type="text" class="form-control" placeholder="Enter State" id="state">
+              <input type="text" class="form-control" placeholder="Enter State" id="state" name="state">
             </div>
             <div class="form-group">
               <label for="city">Your City:</label>
-              <input type="text" class="form-control" placeholder="Enter City" id="city">
+              <input type="text" class="form-control" placeholder="Enter City" id="city" name="city">
             </div>
             <div class="form-group">
               <label for="city">Your Mobile number:</label>
-              <input type="text" class="form-control" placeholder="Enter Number" id="city">
+              <input type="text" class="form-control" placeholder="Enter Number" id="city" name="mobilenumber">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
@@ -287,22 +287,22 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
         
         <!-- Modal body -->
         <div class="modal-body">
-          <form action="/action_page.php">
+          <form action="/join" method="post">
             <div class="form-group">
               <label for="destination">Your Destination:</label>
-              <input type="text" class="form-control" placeholder="Enter Destination" id="destination">
+              <input type="text" class="form-control" placeholder="Enter Destination" id="destination" name="destination">
             </div>
             <div class="form-group">
               <label for="member">Number Of Member:</label>
-              <input type="number" class="form-control" placeholder="Enter Total Number Of Member" id="member">
+              <input type="number" class="form-control" placeholder="Enter Total Number Of Member" id="member" name="totalmember">
             </div>
             <div class="form-group">
               <label for="budget">Your Budget:</label>
-              <input type="text" class="form-control" placeholder="Enter Your Total Budget" id="budget">
+              <input type="text" class="form-control" placeholder="Enter Your Total Budget" id="budget" name="budget">
             </div>
             <div class="form-group">
               <label for="vehicle">Your Vehicle Type:</label>
-              <input type="text" class="form-control" placeholder="Enter Vehicle Type" id="vehicle">
+              <input type="text" class="form-control" placeholder="Enter Vehicle Type" id="vehicle" name="vehicle">
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
